@@ -1,0 +1,46 @@
+spring:
+  datasource:
+    url: jdbc:sqlserver://localhost:1433;databaseName=DB_pfe
+    username: sa
+    password: O2S+O2S
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: false
+    database-platform: org.hibernate.dialect.SQLServerDialect
+
+
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: zribiamen3@gmail.com
+    password: pryx gyzn yqxx doaa
+
+    properties:
+      mail:
+        smtp:
+          starttls:
+            enable: true # Activer STARTTLS
+        auth: true
+        connectiontimeout: 5000
+        timeout: 3000
+        writetimeout: 5000
+application:
+  security:
+    jwt:
+      secret-key: ndi6cYO7Ola5uVt9JjaVLBIYQAOkj5c6NnC+nerEn+c=
+
+      expiration: 86400000 # a day
+      refresh-token:
+        expiration: 604800000 # 7 days
+  mailing:
+    frontend:
+      activation-url: http://localhost:4200/activate-account
+ # file:
+  #  uploads:
+   #   photos-output-path: ./uploads
+server:
+  port: 8088

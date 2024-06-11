@@ -1,8 +1,8 @@
-# Book Social Network - Backend
+# Finance Client - Backend
 
 ## Overview
 
-The backend of the Book Social Network project is responsible for handling all server-side operations, including user authentication, book management, and API endpoints. This section provides an overview of the backend architecture, technologies used, and setup instructions.
+The backend of the Finance Client project is responsible for handling all server-side operations, 
 
 ## Technologies Used
 
@@ -16,12 +16,12 @@ The backend of the Book Social Network project is responsible for handling all s
 
 ## Setup Instructions
 
-To set up the backend of the Book Social Network project, follow these steps:
+To set up the backend of the Finance Client project, follow these steps:
 
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/ali-bouali/book-social-network.git
+   git clone https://github.com/amenzribi/FinanceClient.git
 ```
 
 2. Run the docker-compose file
@@ -30,23 +30,15 @@ To set up the backend of the Book Social Network project, follow these steps:
   docker-compose up -d
 ```
 
-3. Navigate to the book-social-network directory:
 
-```bash
-  cd book-social-network
-```
 
-4. Install dependencies (assuming Maven is installed):
+3. Install dependencies (assuming Maven is installed):
 
 ```bash
   mvn clean install
 ```
 
-4. Run the application but first replace the `x.x.x` with the current version from the `pom.xml` file
 
-```bash
-  java -jar target/book-network-api-x.x.x.jar
-```
 
 5. Access the API documentation using Swagger UI:
 
@@ -58,4 +50,4 @@ This project is licensed under the Apache License 2.0. See the [LICENSE](LICENSE
 
 ## Contributors
 
-- [Ali Bouali](https://github.com/ali-bouali)
+
